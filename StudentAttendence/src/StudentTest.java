@@ -5,19 +5,19 @@ import org.junit.Test;
 
 
 public class StudentTest {
-	Admin admin;
-	Student student;
-	Clerk clerk;
+	Person admin;
+	Person student;
+	Person clerk;
 	@Before
 	public void setUp() throws Exception {
-		admin = new Admin();
-		student = new Student();
-		clerk = new Clerk();
+		admin = new Admin("Munib");
+		student = new Student(null);
+		clerk = new Clerk(null);
 	}
 
 	@Test
 	public void test() {
-		fail("Not yet implemented");
+		
 	}
 
 }
