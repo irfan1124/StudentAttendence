@@ -8,7 +8,8 @@ public class PerMonthAttendance {
 	
 	
 	
-	
-	
-	
+	public void addattendance(studentAttendence studAtt) {
+		// TODO Auto-generated method stub
+		studPm.add((studentAttendence) studAtt);
+	}
 }
