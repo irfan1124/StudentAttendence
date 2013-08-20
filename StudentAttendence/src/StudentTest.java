@@ -13,8 +13,8 @@ public class StudentTest {
 	@Before
 	public void setUp() throws Exception {
 		admin = new Admin("Munib");
-		student = new Student(null);
-		clerk = new Clerk(null);
+		student = new Student("Irfan",1);
+		clerk = new Clerk("Surya");
 		sub1 = new Subject("java");
 		StudAtt = new studentAttendence();
 		
@@ -26,6 +26,7 @@ public class StudentTest {
 		StudAtt.AddStudent(student);
 		
 		assertTrue(sub1.equals(StudAtt.getSub()));
+		assertEquals("Irfan",(student.getname()));
 		
 	}
 

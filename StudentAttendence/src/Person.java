@@ -7,5 +7,10 @@ public class Person {
 	{
 		this.name = name;
 	}
+
+	public String getname() {
+		// TODO Auto-generated method stub
+		return name;
+	}
 	
 }
